@@ -5,7 +5,7 @@ import morgan from "morgan";
 import connectDB from "./config/db.js";
 import cors from 'cors'
 import authRoutes from "./routes/authRoute.js"
-const path = require("path");
+import path from 'path'
 import categoryRoutes from './routes/categoryRoutes.js'
 import productRoutes from './routes/productRoutes.js'
 //const express = require ("express")
